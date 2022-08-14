@@ -10,7 +10,7 @@
  * @example
  * var point = new Point(-77, 38);
  */
-export class Point {
+class Point {
     x;
     y;
     constructor(x, y) {
@@ -263,4 +263,5 @@ export class Point {
         return a;
     };
 }
+export default Point;
 //# sourceMappingURL=point_geometry.js.map

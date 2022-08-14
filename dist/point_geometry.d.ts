@@ -10,7 +10,7 @@
  * @example
  * var point = new Point(-77, 38);
  */
-export declare class Point {
+declare class Point {
     x: number;
     y: number;
     constructor(x: number, y: number);
@@ -176,3 +176,4 @@ export declare class Point {
      */
     static convert: (a: Array<number> | Point | any) => Point;
 }
+export default Point;

@@ -1,4 +1,4 @@
-import {Point} from './point_geometry';
+import Point from './point_geometry';
 
 describe('point_geometry', () => {
     test('point_geometry.convert', () => {

@@ -12,7 +12,7 @@
  * var point = new Point(-77, 38);
  */
 
-export class Point {
+class Point {
 
     x: number;
     y: number;
@@ -313,3 +313,4 @@ export class Point {
 
 }
 
+export default Point
