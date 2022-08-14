@@ -4,6 +4,8 @@
   "description": "Place bookmarks for maps",
   "main": "dist/point_geometry.js",
   "type": "module",
+  "types": "dist/point_geometry.d.ts",
+  
   "repository": {
     "type": "git",
     "url": "git://github.com/birkskyum/maplibre-point-geometry.git"
