@@ -1,0 +1,25 @@
+{
+  "compilerOptions":{
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "checkJs": false,
+    "esModuleInterop": true,
+    "declaration": true,
+    "outDir": "dist",
+    "declarationDir": ".",
+    "importHelpers": false,
+    "isolatedModules": true,
+    //"importsNotUsedAsValues": "preserve",
+    "module": "esnext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "skipLibCheck": false,
+    "sourceMap": true,
+    "strict": false,
+    "target": "es2022",
+  },
+  "include": [
+    "src/point_geometry.ts",
+  ],
+  "exclude": ["dist"]
+}

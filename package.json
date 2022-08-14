@@ -1,0 +1,23 @@
+{
+  "name": "maplibre-point-geometry",
+  "version": "5.1.0",
+  "description": "Place bookmarks for maps",
+  "main": "dist/point_geometry.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/birkskyum/maplibre-point-geometry.git"
+  },
+  "author": "MapLibre",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.6",
+    "jest": "^28.1.3",
+    "jest-environment-jsdom": "^28.1.3",
+    "ts-jest": "^28.0.7",
+    "ts-node": "^10.9.1"
+  }
+}
